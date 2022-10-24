@@ -681,7 +681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548801565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -724,6 +724,7 @@ Transform:
   - {fileID: 282608705}
   - {fileID: 1565782193}
   - {fileID: 1065765856}
+  - {fileID: 1198503479}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1513,7 +1514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065765855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.245, y: 0.291, z: -2.377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1766,6 +1767,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1770289268706740267, guid: e17bf6f6386cb4404a6a8ed6005eeae6, type: 3}
   m_PrefabInstance: {fileID: 1526757758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1198503478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198503479}
+  - component: {fileID: 1198503481}
+  - component: {fileID: 1198503480}
+  m_Layer: 0
+  m_Name: XR Device Simulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1198503479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198503478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.470248, y: -3.0685875, z: 4.1189384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 616891354}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1198503480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198503478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActionAssets: []
+--- !u!114 &1198503481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198503478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b34befe5d0cbb642bb5d09104a47160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_KeyboardXTranslateAction: {fileID: 0}
+  m_KeyboardYTranslateAction: {fileID: 0}
+  m_KeyboardZTranslateAction: {fileID: 0}
+  m_ManipulateLeftAction: {fileID: 0}
+  m_ManipulateRightAction: {fileID: 0}
+  m_ToggleManipulateLeftAction: {fileID: 0}
+  m_ToggleManipulateRightAction: {fileID: 0}
+  m_ManipulateHeadAction: {fileID: 0}
+  m_MouseDeltaAction: {fileID: 0}
+  m_MouseScrollAction: {fileID: 0}
+  m_RotateModeOverrideAction: {fileID: 0}
+  m_ToggleMouseTransformationModeAction: {fileID: 0}
+  m_NegateModeAction: {fileID: 0}
+  m_XConstraintAction: {fileID: 0}
+  m_YConstraintAction: {fileID: 0}
+  m_ZConstraintAction: {fileID: 0}
+  m_ResetAction: {fileID: 0}
+  m_ToggleCursorLockAction: {fileID: 0}
+  m_ToggleDevicePositionTargetAction: {fileID: 0}
+  m_TogglePrimary2DAxisTargetAction: {fileID: 0}
+  m_ToggleSecondary2DAxisTargetAction: {fileID: 0}
+  m_Axis2DAction: {fileID: 0}
+  m_RestingHandAxis2DAction: {fileID: 0}
+  m_GripAction: {fileID: 0}
+  m_TriggerAction: {fileID: 0}
+  m_PrimaryButtonAction: {fileID: 0}
+  m_SecondaryButtonAction: {fileID: 0}
+  m_MenuAction: {fileID: 0}
+  m_Primary2DAxisClickAction: {fileID: 0}
+  m_Secondary2DAxisClickAction: {fileID: 0}
+  m_Primary2DAxisTouchAction: {fileID: 0}
+  m_Secondary2DAxisTouchAction: {fileID: 0}
+  m_PrimaryTouchAction: {fileID: 0}
+  m_SecondaryTouchAction: {fileID: 0}
+  m_CameraTransform: {fileID: 0}
+  m_KeyboardTranslateSpace: 0
+  m_MouseTranslateSpace: 2
+  m_KeyboardXTranslateSpeed: 0.2
+  m_KeyboardYTranslateSpeed: 0.2
+  m_KeyboardZTranslateSpeed: 0.2
+  m_MouseXTranslateSensitivity: 0.0004
+  m_MouseYTranslateSensitivity: 0.0004
+  m_MouseScrollTranslateSensitivity: 0.0002
+  m_MouseXRotateSensitivity: 0.1
+  m_MouseYRotateSensitivity: 0.1
+  m_MouseScrollRotateSensitivity: 0.05
+  m_MouseYRotateInvert: 0
+  m_DesiredCursorLockMode: 1
 --- !u!1 &1465587892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,7 +2140,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646419582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.065, y: 0.256, z: -0.543}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
