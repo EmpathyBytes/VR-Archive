@@ -12,7 +12,7 @@ VR Archive/[Ll]ogs/
 VR Archive/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!VR Archive/[Aa]ssets/**/*.meta
+#!VR Archive/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # VR Archive/[Aa]ssets/AssetStoreTools*
@@ -58,3 +58,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+VR Archive/Logs/AssetImportWorker1.log
+VR Archive/Logs/AssetImportWorker0.log
+VR Archive/Logs/AssetImportWorker1.log
+VR Archive/Logs/shadercompiler-AssetImportWorker0.log
