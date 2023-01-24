@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60888
+61325
 Successfully changed project path to: /Users/johnpham/Documents/GitHub/VR-Archive/VR Archive
 /Users/johnpham/Documents/GitHub/VR-Archive/VR Archive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/johnpham/Documents/GitHub/VR-Archiv
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 395.79 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 14.26 ms.
+Refreshing native plugins compatible for Editor in 1164.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 22.66 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/johnpham/Documents/GitHub/VR-Archive/VR Archive/Assets
@@ -69,109 +69,51 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56059
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56658
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.005694 seconds.
+Registered in 0.075436 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 418.36 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.92 ms.
+Refreshing native plugins compatible for Editor in 517.31 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 5.32 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.470 seconds
+- Completed reload, in  5.587 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2471ms)
-		BeginReloadAssembly (265ms)
+	ReloadAssembly (5588ms)
+		BeginReloadAssembly (666ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1820ms)
-			LoadAssemblies (270ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1240ms)
+		EndReloadAssembly (3954ms)
+			LoadAssemblies (674ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1147ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (395ms)
+			SetupLoadedEditorAssemblies (1760ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (284ms)
+				InitializePlatformSupportModulesInManaged (563ms)
 				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (420ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				RefreshPlugins (523ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (527ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028219 seconds.
-Android Extension - Scanning For ADB Devices 4308 ms
+Registered in 0.075292 seconds.
+Android Extension - Scanning For ADB Devices 4414 ms
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/johnpham/Documents/GitHub/VR-Archive/VR Archive/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/johnpham/Documents/GitHub/VR-Archive/VR Archive/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 418.25 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.20 ms.
-Package Manager log level set to [2]
-Mono: successfully reloaded assembly
-- Completed reload, in  9.112 seconds
-Domain Reload Profiling:
-	ReloadAssembly (9114ms)
-		BeginReloadAssembly (1463ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (7228ms)
-			LoadAssemblies (2517ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2172ms)
-			ReleaseScriptCaches (15ms)
-			RebuildScriptCaches (376ms)
-			SetupLoadedEditorAssemblies (2832ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (420ms)
-				BeforeProcessingInitializeOnLoad (523ms)
-				ProcessInitializeOnLoadAttributes (1481ms)
-				ProcessInitializeOnLoadMethodAttributes (332ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 3.37 ms.
-Unloading 6043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (1.4 MB). Loaded Objects now: 6460.
-Memory consumption went from 371.7 MB to 370.3 MB.
-Total: 11.489276 ms (FindLiveObjects: 0.775298 ms CreateObjectMapping: 0.715361 ms MarkObjects: 8.710285 ms  DeleteObjects: 1.286181 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
